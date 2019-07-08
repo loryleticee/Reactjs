@@ -17,20 +17,20 @@ function SayHello(props){
     // });
 
     return(
-       <div className="jumbotron">
+        <div className="jumbotron">
            <link rel="stylesheet" href="/css/video-react.css" />
-           <div className="container">
-               <a href="http://localhost:3000/">
+            <div className="container">
+                <a href="http://localhost:3000/">
                     <div className="btn btn-danger"> Moien, {props.name} !</div>
-               </a>
-               <Player
+                </a>
+                <Player
                    playsInline
                    poster="/assets/poster.png"
                    src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-               />
-           </div>
-        <Truc />
-       </div>
+                />
+            </div>
+            <Truc name='lory' />
+        </div>
    )
 }
 

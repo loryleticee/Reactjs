@@ -4,7 +4,7 @@ class Truc extends Component {
 
     Do()
     {
-        let par = <p> Je m'appel paragraphe </p>;
+        let par = <p> Je m'appel paragraphe {this.props.name} </p>;
         return par
     }
 
